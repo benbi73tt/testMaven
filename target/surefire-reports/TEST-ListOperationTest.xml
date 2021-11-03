@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="ListOperationTest" time="0.017" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="ListOperationTest" time="0.022" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -59,18 +59,18 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ListOperationTest" name="addAll" time="0.005"/>
-  <testcase classname="ListOperationTest" name="insert" time="0.003"/>
+  <testcase classname="ListOperationTest" name="addAll" time="0.012"/>
+  <testcase classname="ListOperationTest" name="insert" time="0.001"/>
   <testcase classname="ListOperationTest" name="remove" time="0"/>
   <testcase classname="ListOperationTest" name="contains" time="0"/>
-  <testcase classname="ListOperationTest" name="sortFloat" time="0.007"/>
-  <testcase classname="ListOperationTest" name="add" time="0"/>
+  <testcase classname="ListOperationTest" name="sortFloat" time="0.003"/>
+  <testcase classname="ListOperationTest" name="add" time="0.001"/>
   <testcase classname="ListOperationTest" name="get" time="0"/>
-  <testcase classname="ListOperationTest" name="last" time="0"/>
+  <testcase classname="ListOperationTest" name="last" time="0.001"/>
   <testcase classname="ListOperationTest" name="size" time="0"/>
-  <testcase classname="ListOperationTest" name="first" time="0"/>
-  <testcase classname="ListOperationTest" name="insert_in_begin" time="0"/>
-  <testcase classname="ListOperationTest" name="remove_from_nullArray" time="0.001"/>
+  <testcase classname="ListOperationTest" name="first" time="0.001"/>
+  <testcase classname="ListOperationTest" name="insert_in_begin" time="0.001"/>
+  <testcase classname="ListOperationTest" name="remove_from_nullArray" time="0.002"/>
   <testcase classname="ListOperationTest" name="isEmpty" time="0"/>
-  <testcase classname="ListOperationTest" name="shuffle" time="0.001"/>
+  <testcase classname="ListOperationTest" name="shuffle" time="0"/>
 </testsuite>
